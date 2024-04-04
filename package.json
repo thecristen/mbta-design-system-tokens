@@ -1,0 +1,18 @@
+{
+  "name": "mbta-design-system-tokens",
+  "version": "1.0.0",
+  "description": "WIP",
+  "exports": {
+    ".": "./tokens.json"
+  },
+  "scripts": {
+    "build": "style-dictionary build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^3.9.2"
+  }
+}
