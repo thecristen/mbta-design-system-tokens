@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 31 May 2024 17:00:38 GMT
+ * Generated on Fri, 31 May 2024 18:08:46 GMT
  */
 
 :root {
@@ -64,7 +64,7 @@
   --action-primary-disabled: var(--neutral-400);
   --action-primary-active: var(--blue-300);
   --action-primary-hover: var(--blue-300);
-  --action-primary-default: var(--blue-400);
+  --action-primary-default: var(--purple-100);
   --text-tertiary: var(--neutral-200);
   --text-secondary: var(--neutral-200);
   --background-tertiary: var(--neutral-700);
