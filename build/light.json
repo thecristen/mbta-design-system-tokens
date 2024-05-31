@@ -1,0 +1,104 @@
+{
+  "gtfs": {
+    "red": {
+      "background": "#da291c",
+      "text": "#ffffff"
+    },
+    "green": {
+      "background": "#00843d",
+      "text": "#ffffff"
+    },
+    "blue": {
+      "background": "#003da5",
+      "text": "#ffffff"
+    },
+    "orange": {
+      "background": "#ed8b00",
+      "text": "#ffffff"
+    },
+    "silver": {
+      "background": "#7c878e",
+      "text": "#ffffff"
+    },
+    "bus": {
+      "background": "#ffc72c",
+      "text": "#000000"
+    },
+    "cr": {
+      "background": "#80276c",
+      "text": "#ffffff"
+    },
+    "ferry": {
+      "background": "#008eaa",
+      "text": "#ffffff"
+    }
+  },
+  "white": "#ffffff",
+  "neutral": {
+    "0": "#ffffff",
+    "100": "#f5f4f2",
+    "200": "#e5e5e3",
+    "300": "#bdbfc1",
+    "400": "#8a9199",
+    "500": "#626a73",
+    "700": "#3e454d",
+    "900": "#192026",
+    "1000": "#000000"
+  },
+  "yellow": {
+    "100": "#fffae9",
+    "300": "#ffe372",
+    "400": "#ffdd00",
+    "500": "#ffce0c",
+    "700": "#d8ac00"
+  },
+  "red": {
+    "100": "#f2dede",
+    "700": "#b3000f"
+  },
+  "green": {
+    "100": "#dff0d8",
+    "800": "#145a06"
+  },
+  "purple": {
+    "100": "#dcd3e8",
+    "600": "#664a8d"
+  },
+  "blue": {
+    "100": "#e2ecf9",
+    "200": "#cee0f4",
+    "300": "#a1c6ed",
+    "400": "#5da9e8",
+    "500": "#165c96",
+    "800": "#0b2f4c"
+  },
+  "font": {
+    "stack": "Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "size": {
+      "small": "14px",
+      "default": "16px",
+      "large": "18px"
+    }
+  },
+  "spacing": {
+    "extra-small": "4px",
+    "small": "8px",
+    "default": "16px",
+    "large": "24px",
+    "extra-large": "32px",
+    "extra-extra-large": "48px"
+  },
+  "timing": {
+    "default": "200ms"
+  },
+  "transportation": {
+    "subway": "#494f5c",
+    "the-ride": "#52bbc5"
+  },
+  "text-primary": "#192026",
+  "background-primary": "#ffffff",
+  "background-secondary": "#f5f4f2",
+  "background-tertiary": "#e5e5e3",
+  "text-secondary": "#192026",
+  "text-tertiary": "#192026"
+}

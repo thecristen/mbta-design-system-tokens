@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 31 May 2024 03:37:09 GMT
+-->
+<resources>
+  <string name="gtfs_red_background">#da291c</string>
+  <string name="gtfs_red_text">#ffffff</string>
+  <string name="gtfs_green_background">#00843d</string>
+  <string name="gtfs_green_text">#ffffff</string>
+  <string name="gtfs_blue_background">#003da5</string>
+  <string name="gtfs_blue_text">#ffffff</string>
+  <string name="gtfs_orange_background">#ed8b00</string>
+  <string name="gtfs_orange_text">#ffffff</string>
+  <string name="gtfs_silver_background">#7c878e</string>
+  <string name="gtfs_silver_text">#ffffff</string>
+  <string name="gtfs_bus_background">#ffc72c</string>
+  <string name="gtfs_bus_text">#000000</string>
+  <string name="gtfs_cr_background">#80276c</string>
+  <string name="gtfs_cr_text">#ffffff</string>
+  <string name="gtfs_ferry_background">#008eaa</string>
+  <string name="gtfs_ferry_text">#ffffff</string>
+  <string name="white">#ffffff</string>
+  <string name="neutral_0">#ffffff</string>
+  <string name="neutral_100">#f5f4f2</string>
+  <string name="neutral_200">#e5e5e3</string>
+  <string name="neutral_300">#bdbfc1</string>
+  <string name="neutral_400">#8a9199</string>
+  <string name="neutral_500">#626a73</string>
+  <string name="neutral_700">#3e454d</string>
+  <string name="neutral_900">#192026</string>
+  <string name="neutral_1000">#000000</string>
+  <string name="yellow_100">#fffae9</string>
+  <string name="yellow_300">#ffe372</string>
+  <string name="yellow_400">#ffdd00</string>
+  <string name="yellow_500">#ffce0c</string>
+  <string name="yellow_700">#d8ac00</string>
+  <string name="red_100">#f2dede</string>
+  <string name="red_700">#b3000f</string>
+  <string name="green_100">#dff0d8</string>
+  <string name="green_800">#145a06</string>
+  <string name="purple_100">#dcd3e8</string>
+  <string name="purple_600">#664a8d</string>
+  <string name="blue_100">#e2ecf9</string>
+  <string name="blue_200">#cee0f4</string>
+  <string name="blue_300">#a1c6ed</string>
+  <string name="blue_400">#5da9e8</string>
+  <string name="blue_500">#165c96</string>
+  <string name="blue_800">#0b2f4c</string>
+  <string name="font_stack">Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif</string>
+  <string name="font_size_small">14px</string>
+  <string name="font_size_default">16px</string>
+  <string name="font_size_large">18px</string>
+  <string name="spacing_extra_small">4px</string>
+  <string name="spacing_small">8px</string>
+  <string name="spacing_default">16px</string>
+  <string name="spacing_large">24px</string>
+  <string name="spacing_extra_large">32px</string>
+  <string name="spacing_extra_extra_large">48px</string>
+  <string name="timing_default">200ms</string>
+  <string name="transportation_subway">#494f5c</string>
+  <string name="transportation_the_ride">#52bbc5</string>
+  <string name="text_primary">@string/neutral_200</string>
+  <string name="background_primary">@string/neutral_1000</string>
+  <string name="background_secondary">@string/neutral_900</string>
+  <string name="background_tertiary">@string/neutral_700</string>
+  <string name="text_secondary">@string/neutral_200</string>
+  <string name="text_tertiary">@string/neutral_200</string>
+  
+</resources>

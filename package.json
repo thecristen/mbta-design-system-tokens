@@ -1,13 +1,15 @@
 {
   "name": "mbta-design-system-tokens",
-  "version": "1.0.0",
+  "version": "0.4.0",
   "description": "WIP",
   "exports": {
-    ".": "./tokens.json"
+    "./_variables.scss": "./build/_variables.scss",
+    "./variables.css": "./build/variables.css",
+    "./resources.xml": "./build/resources.xml",
+    "./variables.json": "./build/index.json"
   },
   "scripts": {
-    "build": "style-dictionary build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "",
