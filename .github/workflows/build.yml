@@ -23,3 +23,5 @@ jobs:
         git config --global user.email 'cjones3@mbta.com'
         git commit -am "Update build files"
         git push
+    - name: Re-deploy the demo
+      uses: ./.github/workflows/static.yml@main
