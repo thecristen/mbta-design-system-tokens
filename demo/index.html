@@ -57,11 +57,10 @@
       animation-iteration-count: infinite;
     }
     button {
-      /* just a bit darker than the background */
-      background-color: oklab(from var(--background-tertiary) calc(l - 0.1) a b);
-      border: 2px oklab(from var(--background-tertiary) calc(l - 0.2) a b) solid;
+      background-color: var(--action-primary-default);
+      border: none;
       border-radius: var(--spacing-small);
-      color: inherit;
+      color: var(--action-primary-inverse);
       font-family: inherit;
       font-size: inherit;
       padding-block: var(--spacing-small);
@@ -71,7 +70,7 @@
     button:hover,
     button:active,
     button[aria-pressed] {
-      background-color: oklab(from var(--background-tertiary) calc(l - 0.03) a b);
+      background-color: var(--action-primary-active);
     }
     button[aria-pressed]::after {
       content: " (Click again to stop)";
