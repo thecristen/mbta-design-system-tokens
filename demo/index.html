@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <style>
+    @import "../build/dark.css" (prefers-color-scheme: dark);
+    @import "../build/light.css" (prefers-color-scheme: light);
+
+    body {
+      background-color: var(--background-secondary);
+    }
+
+    main {
+      background-color: var(--background-tertiary);
+      color: var(--text-tertiary);
+      font-family: var(--font-stack);
+      font-size: var(--font-size-default);
+      padding: var(--spacing-large);
+      max-width: 50ch;
+      margin: var(--spacing-large);
+      border-radius: var(--spacing-large);
+    }
+    hr {
+      margin-block: var(--spacing-large);
+    }
+    .route {
+      display: inline-block;
+      min-width: 2ch;
+      text-align: center;
+      padding-block: var(--spacing-extra-small);
+      padding-inline: var(--spacing-small);
+      font-weight: 500;
+      margin-inline: var(--spacing-extra-small);
+      border-radius: var(--spacing-extra-small);
+    }
+    .ferry {
+      background-color: var(--gtfs-ferry-background);
+      color: var(--gtfs-ferry-text);
+    }
+    .bus {
+      background-color: var(--gtfs-bus-background);
+      color: var(--gtfs-bus-text);
+    }
+    .green {
+      background-color: var(--gtfs-green-background);
+      color: var(--gtfs-green-text);
+    }
+    .silver {
+      background-color: var(--gtfs-silver-background);
+      color: var(--gtfs-silver-text);
+    }
+    .route[shake] {
+      animation: shake 1s; 
+      animation-iteration-count: infinite;
+    }
+    button {
+      /* just a bit darker than the background */
+      background-color: oklab(from var(--background-tertiary) calc(l - 0.1) a b);
+      border: 2px oklab(from var(--background-tertiary) calc(l - 0.2) a b) solid;
+      border-radius: var(--spacing-small);
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      padding-block: var(--spacing-small);
+      padding-inline: var(--spacing-default);
+      transition: all var(--timing-default);
+    }
+    button:hover,
+    button:active,
+    button[aria-pressed] {
+      background-color: oklab(from var(--background-tertiary) calc(l - 0.03) a b);
+    }
+    button[aria-pressed]::after {
+      content: " (Click again to stop)";
+    }
+
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Top MBTA routes</h1>
+    <hr />
+    <p>
+      These are winning routes for your next journey.
+    </p>
+    <div class="route ferry">Winthrop</div>
+    <div class="route bus">450</div>
+    <div class="route bus">1</div>
+    <div class="route bus">111</div>
+    <div class="route bus">15</div>
+    <div class="route green">Green B</div>
+    <div class="route silver">SL3</div>
+    <hr />
+    <p>
+      <button type="button">
+        Perform an action
+      </button>
+    </p>
+  </main>
+
+  <script type="text/javascript">
+    document.querySelector("button").addEventListener("click", (event) => {
+      event.target.toggleAttribute("aria-pressed");
+      document.querySelectorAll(".route").forEach((el, i) => {
+        el.style.animationDelay = ( i * 50 ) + 'ms';
+        el.toggleAttribute("shake")
+      })
+    });
+  </script>
+</body>
+</html>
