@@ -1,0 +1,24 @@
+name: Continuous build
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: latest
+    - run: npm install
+    - run: npm run build
+    - name: Save build output
+      run: |
+        git config --global user.name 'Github Actions'
+        git commit -am "Update build files"
+        git push
