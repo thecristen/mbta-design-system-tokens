@@ -30,16 +30,6 @@ function getStyleDictionaryConfig(theme) {
   return {
     source: ["tokens/base.json", `tokens/${theme}.json`],
     platforms: {
-      html: {
-        transformGroup: "html",
-        buildPath: "build/",
-        files: [
-          {
-            format: "html",
-            destination: `${theme}.html`
-          }
-        ],
-      },
       css: {
         transformGroup: "custom/web",
         buildPath: "build/",
