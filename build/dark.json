@@ -100,5 +100,12 @@
   "background-secondary": "#192026",
   "background-tertiary": "#3e454d",
   "text-secondary": "#e5e5e3",
-  "text-tertiary": "#e5e5e3"
+  "text-tertiary": "#e5e5e3",
+  "action-primary": {
+    "default": "#5da9e8",
+    "hover": "#a1c6ed",
+    "active": "#a1c6ed",
+    "disabled": "#8a9199",
+    "inverse": "#000000"
+  }
 }

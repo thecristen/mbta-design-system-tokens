@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 31 May 2024 16:36:47 GMT
+  Generated on Fri, 31 May 2024 16:44:52 GMT
 -->
 <resources>
   <string name="gtfs_red_background">#da291c</string>
@@ -67,5 +67,10 @@
   <string name="background_tertiary">@string/neutral_200</string>
   <string name="text_secondary">@string/neutral_900</string>
   <string name="text_tertiary">@string/neutral_900</string>
+  <string name="action_primary_default">@string/blue_500</string>
+  <string name="action_primary_hover">@string/blue_800</string>
+  <string name="action_primary_active">@string/blue_800</string>
+  <string name="action_primary_disabled">@string/neutral_500</string>
+  <string name="action_primary_inverse">@string/neutral_0</string>
   
 </resources>
